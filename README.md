@@ -23,6 +23,7 @@ Tools Used
 ---
 📂 Folder Structure
 krishnapiriyan-os/
+
 ├── bootloader.asm # Source code (Assembly)
 
 ├── bootloader.bin # Compiled bootable binary
