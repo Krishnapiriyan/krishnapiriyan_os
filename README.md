@@ -35,14 +35,14 @@ How to Run
 sudo apt update
 sudo apt install nasm qemu
 
-3. Clone the Repository
+2. Clone the Repository
 git clone https://github.com/yourusername/krishnapiriyan-os.git
 cd krishnapiriyan-os
 
-4. Assemble the Bootloader
+3. Assemble the Bootloader
 nasm -f bin bootloader.asm -o bootloader.bin
 
-5. Run It in QEMU
+4. Run It in QEMU
 qemu-system-x86_64 -drive format=raw,file=bootloader.bin
 hello, welcome krishnapiriyan os
 
